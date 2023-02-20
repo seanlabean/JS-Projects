@@ -8,8 +8,9 @@
         <p id="message-el">Play Another Round?</p>
         <p id="cards-el">Cards:</p>
         <p id="score-el">Score:</p>
-        <button onclick="startGame(getCard(), getCard())">Start Game</button>
-        <button onclick="cardDraw()">Hit?</button>
+        <button id="start-el" onclick="startGame()">Start Game</button>
+        <button id="hit-el" onclick="cardDraw()">Hit?</button>
+        <button id="stay-el" onclick="cardStay()">Stay?</button>
         <script src="index.js"></script>
     </body>
 </html>

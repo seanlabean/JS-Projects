@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("bkgrnd.jpeg");
+    background-image: url("./assets/bkgrnd.jpeg");
     background-size: cover;
     text-align: center;
     color: white;
@@ -13,4 +13,23 @@ h1  {
 
 #message-el {
     font-style: italic;
+}
+
+#start-el {
+    background-color:chocolate ;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+}
+#hit-el {
+    background-color:rgb(229, 43, 43) ;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+}
+#stay-el {
+    background-color:skyblue ;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
 }
